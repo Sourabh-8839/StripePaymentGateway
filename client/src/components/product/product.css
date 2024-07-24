@@ -1,0 +1,13 @@
+.product {
+  background-color: burlywood;
+  height: 80vh;
+  overflow: scroll;
+}
+
+.product-items {
+  width: 50%;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

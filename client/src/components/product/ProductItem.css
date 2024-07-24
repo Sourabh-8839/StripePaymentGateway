@@ -1,0 +1,32 @@
+.list {
+  background-color: rgb(164, 135, 135);
+  list-style: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-style: italic;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  border-radius: 10px;
+}
+
+.product-name {
+  padding-left: 2rem;
+}
+.product-name p {
+  font-size: small;
+  text-overflow: unset;
+  width: 80%;
+}
+
+.product-size {
+  display: flex;
+}
+
+.product-size button {
+  margin: 10px;
+  padding: 5px 20px;
+}
+button:hover {
+  background-color: rgb(255, 255, 255);
+}
